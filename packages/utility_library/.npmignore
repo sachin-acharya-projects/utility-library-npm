@@ -1,0 +1,8 @@
+test
+*.tgz
+
+# Directory containing all the TypeScript files
+src
+
+# Ignore since no TypeScript files are exported
+tsconfig.json

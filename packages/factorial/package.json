@@ -1,0 +1,28 @@
+{
+    "name": "@sachin-acharya/factorial",
+    "displayName": "Factorial",
+    "version": "1.0.2",
+    "description": "This library helps you to calculate the factorial on number.",
+    "main": "dist/index.js",
+    "types": "types/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsc --build",
+        "watch": "tsx --watch src/index.ts",
+        "push": "npm publish --access public",
+        "prepush": "tsc --build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sachin-acharya-projects/factorial.git"
+    },
+    "keywords": [
+        "factorial"
+    ],
+    "author": "Sachin Acharya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sachin-acharya-projects/factorial/issues"
+    },
+    "homepage": "https://github.com/sachin-acharya-projects/factorial#readme"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "@sachin-acharya/utility-library",
+    "version": "1.0.0",
+    "description": "This is the aggregration of all my other utility library.",
+    "main": "dist/index.js",
+    "types": "types/index.d.ts",
+    "scripts": {
+        "build": "tsc --build",
+        "watch": "tsx --watch src/index.ts",
+        "push": "npm publish --access public",
+        "prepush": "tsc --build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sachin-acharya-projects/utility-library.git"
+    },
+    "author": "Sachin Acharya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sachin-acharya-projects/utility-library/issues"
+    },
+    "homepage": "https://github.com/sachin-acharya-projects/utility-library#readme",
+    "dependencies": {
+        "@sachin-acharya/factorial": "^1.0.1",
+        "@sachin-acharya/reverse-string": "^1.0.1"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "keywords": []
+}

@@ -1,0 +1,27 @@
+{
+    "name": "node_packages",
+    "version": "1.0.0",
+    "description": "Collection of different packages",
+    "private": true,
+    "scripts": {
+        "dev": "nodemon"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sachin-acharya-projects/node_packages.git"
+    },
+    "author": "Sachin Acharya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sachin-acharya-projects/node_packages/issues"
+    },
+    "homepage": "https://github.com/sachin-acharya-projects/node_packages#readme",
+    "devDependencies": {
+        "nodemon": "^3.1.4",
+        "tsx": "^4.17.0",
+        "typescript": "^5.5.4"
+    }
+}

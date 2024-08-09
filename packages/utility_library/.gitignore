@@ -1,0 +1,5 @@
+test
+dist
+*.tgz
+node_modules
+types

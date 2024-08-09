@@ -1,0 +1,27 @@
+{
+    "name": "@sachin-acharya/reverse-string",
+    "version": "1.0.2",
+    "description": "This package provide functionality to reverse string in JavaScript (Support TypeScript).",
+    "main": "dist/index.js",
+    "types": "types/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsc --build",
+        "watch": "tsx --watch src/index.ts",
+        "push": "npm publish --access public",
+        "prepush": "tsc --build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sachin-acharya-projects/reverse-string.git"
+    },
+    "keywords": [
+        "reverse-string"
+    ],
+    "author": "Sachin Acharya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sachin-acharya-projects/reverse-string/issues"
+    },
+    "homepage": "https://github.com/sachin-acharya-projects/reverse-string#readme"
+}
